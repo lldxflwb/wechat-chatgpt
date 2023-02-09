@@ -1,4 +1,4 @@
-FROM node:19 AS app
+FROM registry.cn-chengdu.aliyuncs.com/lldx/tools:nodev19 AS app
 
 # We don't need the standalone Chromium
 RUN apt-get install -y wget \ 
